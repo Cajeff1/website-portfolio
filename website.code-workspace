@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../tic tac toe"
+		},
+		{
+			"path": "../stop watch from memory"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "website"
+	}
+}

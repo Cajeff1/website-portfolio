@@ -1,0 +1,48 @@
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: fit-content;
+    margin:auto;
+}
+
+#restartBtn {
+    font-family: "Permanent Marker", cursive;
+    border: 2px solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+#restartBtn:hover {
+    background-color: black;
+    color: white;
+}
+#backBtn {
+    font-family: "Permanent Marker", cursive;
+    border: 2px solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#backBtn:hover {
+    background-color: black;
+    color: white;
+}
